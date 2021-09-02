@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    background: linear-gradient(to right,#100122,#100122 1px,#100122 1px,#100122);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#e78c41),to(#f2b32e));
+}
+
+
+.container {
+    padding: 10px 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-link, .fas, .fab {
+    color: grey;
+}
+
+.nav-link:hover, .fab:hover, .fas:hover {
+    color: black;
+    transition: .75s;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+

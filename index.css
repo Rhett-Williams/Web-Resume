@@ -1,0 +1,30 @@
+section {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+}
+
+img {
+    padding-right: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 721px) {
+    section {
+        flex-direction: row;
+    }
+    img {
+        width: 50%;
+    }
+  }
+
+  h2, p {
+      color: black;
+  }
