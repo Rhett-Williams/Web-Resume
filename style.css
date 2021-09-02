@@ -1,56 +1,49 @@
 /* universal margin and padding*/
 * {
-	margin:0 !important;
-	padding:0 !important;
+	margin:0 ;
+	padding:0;
+    box-sizing: border-box;
 }
 body {
 	font-family: 'DM Sans', sans-serif;
 }
 /*set font family to element*/
 .white {
-	color: #fff !important;
+	color: #fff;
 }
 /*set white color*/
 .navbar {
-    position: fixed;
-	background-color: white !important;
+	background-color: white;
     width: 100%;
-	padding: 10px 0px !important;
-    margin: 0px !important;
+	padding: 10px 0px;
 }
 
 /*navigation style*/
-header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
+
 /*header style*/
 .navbar-nav li .nav-link {
 	font-size: 20px;
 	line-height: 1.4;
-	color: grey !important;
+	color: grey;
 	border-radius: 3px;
 	margin: 0 5px;
-	padding: 5px 12px !important;
+	padding: 5px 12px;
 }
 /*navigaion link style*/
 .navbar-nav .fab:hover li.active .nav-link,.navbar-nav li.active .nav-link:hover,.navbar-nav li .nav-link:hover,.navbar-nav li .nav-link:focus {
-	color: black !important;
+	color: black;
     transition: .5s;
 }
 .navbar-brand {
-    display: block !important;
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    display: block;
+    text-align: center;
+
 }
 .fab, .fas{
     color: grey;
     border-radius: 3px;
-	margin: 0 40px !important;
-	padding: 5px 12px !important;
+	margin: 0 40px;
+	padding: 5px 12px;
 }
 
 .fab:hover, .fas:hover {
@@ -59,5 +52,26 @@ header {
 }
 
 .collapse {
-    padding: 0px !important;
+    padding: 0px;
+}
+
+#work-section-one {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; */
+    border: 3px solid black;
+    
+}
+
+#work-section-one img {
+    font-family: "object-fit: cover;";
+    height: calc(100% + 2px);
+    left: 50%;
+    object-fit: cover;
+    top: 50%;
+    width: calc(100% + 2px);    
+    vertical-align: top;
+
 }
