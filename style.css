@@ -1,0 +1,63 @@
+/* universal margin and padding*/
+* {
+	margin:0 !important;
+	padding:0 !important;
+}
+body {
+	font-family: 'DM Sans', sans-serif;
+}
+/*set font family to element*/
+.white {
+	color: #fff !important;
+}
+/*set white color*/
+.navbar {
+    position: fixed;
+	background-color: white !important;
+    width: 100%;
+	padding: 10px 0px !important;
+    margin: 0px !important;
+}
+
+/*navigation style*/
+header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*header style*/
+.navbar-nav li .nav-link {
+	font-size: 20px;
+	line-height: 1.4;
+	color: grey !important;
+	border-radius: 3px;
+	margin: 0 5px;
+	padding: 5px 12px !important;
+}
+/*navigaion link style*/
+.navbar-nav .fab:hover li.active .nav-link,.navbar-nav li.active .nav-link:hover,.navbar-nav li .nav-link:hover,.navbar-nav li .nav-link:focus {
+	color: black !important;
+    transition: .5s;
+}
+.navbar-brand {
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.fab, .fas{
+    color: grey;
+    border-radius: 3px;
+	margin: 0 40px !important;
+	padding: 5px 12px !important;
+}
+
+.fab:hover, .fas:hover {
+    color: black;
+    transition: .5s;
+}
+
+.collapse {
+    padding: 0px !important;
+}
