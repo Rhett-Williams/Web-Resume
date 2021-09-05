@@ -1,19 +1,39 @@
 section {
-    border: solid black;
     display: flex;
     flex-direction: column;
-    margin: 5%;
-    padding: 10px;
+    margin: 0% 5%;
+    padding: 0px;
     text-decoration: none;
+    background-color: #f3f3f3;
+    transition: all .5s;
+}
+
+header nav:nth-child(1){
+    color: black !important;
 }
 
 .content {
     text-align: center;
+    margin: 0% 0%;
 }
 
 img {
-    padding-right: 20px;
+    margin: 0%;
+    padding-right: 0px;
     width: 100%;
+}
+
+section:hover {
+    background-color: #000000;
+    opacity: 80%;
+}
+
+section:hover p {
+    color: white;
+}
+
+section:hover h2 {
+    color: white;
 }
 
 @media only screen and (min-width: 721px) {
@@ -22,6 +42,10 @@ img {
     }
     img {
         width: 50%;
+    }
+    .content {
+        text-align: center;
+        margin: 10% 0%;
     }
   }
 
