@@ -27,7 +27,8 @@ section {
     width: 100%;
     margin: 5% 0%;
     padding: 0px;
-    outline: 2px solid grey;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid grey;
 }
 
 @media only screen and (min-width: 721px) {

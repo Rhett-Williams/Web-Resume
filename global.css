@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .container {
     padding: 10px 0px;
 }
@@ -18,6 +17,7 @@ header {
 
 .nav-link, .fas, .fab {
     color: grey;
+    font-size: 150%;
 }
 
 .nav-link:hover, .fab:hover, .fas:hover {
@@ -28,5 +28,17 @@ header {
 
 a {
     text-decoration: none !important;
+}
+
+.base {
+    display: flex;
+    margin: 0% 5%;
+}
+.footer {
+    margin: 0% 50%;
+    text-align: center;
+}
+.footer p {
+    color: grey;
 }
 

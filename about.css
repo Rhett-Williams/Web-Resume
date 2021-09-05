@@ -10,19 +10,14 @@ header nav a:nth-child(2){
     margin: 5% 5%;
 }
 
-img {
+/* img {
     width: 20%;
     height: 20%;
-}
+} */
 
-section{
+section {
     display: flex;
     margin: 0% 5%;
     padding: 0px;
     transition: all .5s;
-}
-
-.content {
-    text-align: center;
-    margin: 0% 0%;
 }

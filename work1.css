@@ -1,0 +1,11 @@
+section{
+    display: flex;
+    margin: 0% 5%;
+    padding: 0px;
+    transition: all .5s;
+}
+
+.content {
+    text-align: center;
+    margin: 0% 0%;
+}

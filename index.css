@@ -6,6 +6,7 @@ section {
     text-decoration: none;
     background-color: #f3f3f3;
     transition: all .5s;
+    box-shadow: 10px 10px 8px #888888;
 }
 
 header nav a{
@@ -22,9 +23,8 @@ header nav a:nth-child(1){
 }
 
 img {
-    margin: 0%;
+    margin: 10%;
     padding-right: 0px;
-    width: 100%;
 }
 
 section:hover {
@@ -44,15 +44,18 @@ section:hover h2 {
     section {
         flex-direction: row;
     }
-    img {
-        width: 50%;
-    }
     .content {
         text-align: center;
-        margin: 10% 0%;
+        margin: 10% 30% 0% 30%;
+    }
+    img {
+        margin: 0%;
+        width: 350;
+        height: 350;
     }
   }
 
   h2, p {
       color: black;
   }
+
