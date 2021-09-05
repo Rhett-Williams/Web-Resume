@@ -1,0 +1,40 @@
+header nav a{
+    color: grey !important;
+}
+
+header nav a:nth-child(3){
+    color: black !important;
+}
+
+.blogs {
+    display: flex;
+    margin: 5% 0%;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.blogs2 {
+    display: flex;
+    margin: 5% 0%;
+    flex-direction: column;
+    padding: 0px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 5% 0%;
+    padding: 0px;
+    outline: 2px solid grey;
+}
+
+@media only screen and (min-width: 721px) {
+    .blogs, .blogs2 {
+        flex-direction: row;
+    }
+    section {
+        margin: 5% 2%;
+    }
+  }
